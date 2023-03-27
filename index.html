@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel-&-Food-Login</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="./JS/index.js" defer></script>
+</head>
+<body id="bdy">
+    <div id="outerDiv">
+        <form id="fom">
+        <div id="innerDiv">
+            <h1 id="headingOfThePage">Login</h1>
+            <div id="inputDiv">
+                <input id="Email" type="Email" placeholder="Enter the Email">
+            </div>
+            <div id="passwordDiv">
+                <input id="pass" type="password" placeholder="Enter your Password">
+                <img id="visible" src="./Asset/Logo/closeeye.jpg" onmousedown="visiblePassword()" onmouseup="hidePassword()">
+            </div>
+            <h1 id="result"></h1>
+            <input id="but" type="button" value="Login" onclick="autho()">
+        </div>
+    </form>
+    </div>
+</body>
+</html>

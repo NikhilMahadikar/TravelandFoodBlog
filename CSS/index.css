@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.5s;
+}
+body{
+    background-image: linear-gradient(70deg,rgb(255, 1, 111),purple);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#outerDiv{
+    width: 80vw;
+    height: 70vh;
+    background-image: linear-gradient(70deg,brown,royalblue);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#innerDiv{
+    position: absolute;
+    bottom: 0px;
+    width: 40vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: black;
+}
+#headingOfThePage{
+    top: 2vh;
+    position: absolute;
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    color: white;
+}
+#inputDiv,#passwordDiv{
+    width: 30vw;
+    height: 8vh;
+    border: 1vh solid royalblue;
+    border-radius: 200px;
+    position: relative;
+}
+#inputDiv{
+    margin-top: 12vh;
+}
+#Email,#pass{
+    width: 100%;
+    height: 7vh;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+}
+#result{
+    color: red;
+    font-size: 2vw;
+}
+#but{
+    width: 15vw;
+    height: 7vh;
+    font-size: 5vh;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: pink;
+    background-color: transparent;
+    border: 3px solid lime;
+    border-radius: 200px;
+    transition: all 0.5s;
+}
+#but:hover{
+    background-color: purple;
+    color: white;
+    border-color: pink;
+    transform: scale(1.2);
+}
+#visible{
+    width: 30px;
+    position: absolute;
+    right: 0.5vw;
+    top: 0.5vh;
+    border-radius: 100%;
+    border:solid 2px royalblue;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

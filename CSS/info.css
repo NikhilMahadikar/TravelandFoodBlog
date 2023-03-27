@@ -1,0 +1,109 @@
+#body_of_page1{
+    width: 100%;
+    height: 200vh;
+}
+body{
+    background-image: linear-gradient(rgb(39, 39, 52),black);
+}
+#containerinfo{
+    position: absolute;
+    width: 80%;
+    height: 80vh;
+    top: 110vh;
+    left: 10%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    overflow: hidden;
+}
+#bloggerimage{
+    width: 45%;
+    height: 100%;
+    background-image: url(../Asset/Images/author.jpg);
+    background-size: 100% 100%;
+}
+#authorName{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    font-size: 80px;
+    letter-spacing: 30px;
+    text-shadow: 2px 2px 5px black;
+}
+#autorinfo{
+    width: 50%;
+    line-height: 25px;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 50px;
+    position: absolute;
+    right: 30px;
+    top: 130px;
+}
+#table{
+    border: 5px orange solid;
+    border-collapse: collapse;
+    position: absolute;
+    top: 1020px;
+    left: 10%;
+    font-size: 24px;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+}
+th{
+    border: 2px black solid;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#footer{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 260vh;
+}
+i{
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 20px;
+}
+#social{
+    float: right;
+}
+#cpr{
+    padding-left: 20px;
+}
+#cprtext{
+    padding-left: 0px;
+    font-size: 24px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+.sociallink{
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+.sociallink:hover{
+    color: lime;
+}
+#up{
+    width: 60px;
+    height: 60px;
+    background-color: greenyellow;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    box-shadow: 0px 0px 5px black;
+}
+#arrow{
+    position: fixed;
+    bottom: 60px;
+    right: 24px;
+    font-size: 40px;
+    color:black;
+    text-shadow: 2px 2px 5px black;
+}

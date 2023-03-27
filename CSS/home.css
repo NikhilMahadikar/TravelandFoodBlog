@@ -1,0 +1,288 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#body_of_page{
+    width: 100%;
+    height: 650vh;
+    background-image: linear-gradient(rgb(39, 39, 52),black);
+    position: absolute;
+    z-index: -1;
+}
+#container_1{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    top: 110vh;
+    box-shadow: 0px 10px 15px black;
+
+}
+#anglecut1{
+    z-index: 3;
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(33, 33, 44);
+    clip-path: polygon(74% 0, 100% 0%, 100% 100%, 0% 100%);
+    box-shadow: -20px 0px 15px black;
+}
+#video{
+    width: 100%;
+    height: 75vh;
+    background-color: yellow;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+#vid{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    transition:transform 0.5s;
+}
+#vid:hover, iframe:hover{
+    transform: scale(1.3);
+}
+#loc{
+    width: 70%;
+    height:40vh;
+    position: absolute;
+    right: 0px;
+    overflow: hidden;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    transition:transform 0.5s;
+}
+#Headingofcontainer1{
+    width: 250px;
+    height:250px;
+    background-image: linear-gradient(rgba(255, 255, 0, 0.554),rgba(153, 205, 50, 0.497)),radial-gradient(limegreen,yellow,limegreen,yellow,limegreen,yellow);
+    clip-path: ellipse(59% 47% at 8% 0%);
+    position: absolute;
+}
+#country_name{
+    text-align: left;
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 25px;
+    color: rgb(55, 54, 68);
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 5px;
+}
+#foodname{
+    color: white;
+    font-size:80px;
+    position: absolute;
+    top: 5px;
+    left: 180px;
+    letter-spacing: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+#q1{
+    position: absolute;
+    color: orange;
+    font-size: 18px;
+    top: 150px;
+    left: 30px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+#a1{
+    position: absolute;
+    top:180px;
+    left: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    width: 355px;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    text-indent: 50px;
+}
+#q2{
+    position: absolute;
+    z-index: 3;
+    color: orange;
+    font-size: 18px;
+    top: 280px;
+    left: 30px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+#list{
+    position: absolute;
+    top:310px;
+    left: 30px;
+    width: 425px;
+    line-height: 22px;
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+    text-indent: 50px;
+}
+.shade{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(63, 63, 63, 0.527);
+    position: absolute;
+    z-index: 3;
+}
+#container_2{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    top: 240vh;
+    box-shadow: 0px 10px 15px black;
+    overflow: hidden;
+
+}
+#anglecut2{
+    z-index: 3;
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(33, 33, 44);
+    clip-path: polygon(0 0, 24% 0, 100% 100%, 0% 100%);
+        box-shadow: -20px 0px 15px black;
+}
+#Headingofcontainer2{
+    width: 260px;
+    height:220px;
+   position: absolute;
+   right: -80px;
+   top: -120px;
+   background-image: linear-gradient(rgba(255, 255, 0, 0.554),rgba(153, 205, 50, 0.497)),radial-gradient(limegreen,yellow,limegreen,yellow,limegreen,yellow);
+    border-radius: 90% 100% 100% 80%;
+    box-shadow: 0px 0px 15px yellow;
+    border: 2px solid lime;
+}
+#country_name2{
+    position: absolute;
+    top: 100px;
+    text-align: left;
+    font-size: 38px;
+    padding-left: 60px;
+    padding-top: 25px;
+    color: rgb(55, 54, 68);
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 5px;
+    
+}
+#loc2{
+    width: 70%;
+    height:40vh;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+}
+
+#foodname2{
+    color: white;
+    font-size:80px;
+    position: absolute;
+    top: 5px;
+    right: 180px;
+    letter-spacing: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+#q3{
+    position: absolute;
+    color: orange;
+    font-size: 18px;
+    top: 150px;
+    right: 30px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+#a2{
+    position: absolute;
+    top:180px;
+    right: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    width: 355px;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    text-indent: 50px;
+}
+#q4{
+    position: absolute;
+    z-index: 3;
+    color: orange;
+    font-size: 18px;
+    top: 280px;
+    right: 30px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+#container_3{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    top: 380vh;
+    box-shadow: 0px 10px 15px black;
+    overflow: hidden;
+}
+#container_4{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    top: 510vh;
+    box-shadow: 0px 10px 15px black;
+    overflow: hidden;
+}
+#footer{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    bottom:0px;
+}
+i{
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 20px;
+}
+#social{
+    float: right;
+}
+#cpr{
+    padding-left: 20px;
+}
+#cprtext{
+    padding-left: 0px;
+    font-size: 24px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+.sociallink{
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+.sociallink:hover{
+    color: lime;
+}
+#up{
+    width: 60px;
+    height: 60px;
+    background-color: greenyellow;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    box-shadow: 0px 0px 5px black;
+}
+#arrow{
+    position: fixed;
+    bottom: 60px;
+    right: 24px;
+    font-size: 40px;
+    color:black;
+    text-shadow: 2px 2px 5px black;
+}
